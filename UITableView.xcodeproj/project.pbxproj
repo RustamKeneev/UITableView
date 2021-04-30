@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53853956E61319B2ABC859BE /* Pods_UITableView_UITableViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5233D2A46DD1EB320EF53AD7 /* Pods_UITableView_UITableViewUITests.framework */; };
+		755D847FA5FC8F6F41240C43 /* Pods_UITableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB0E3AB47CD31ED964A6FB /* Pods_UITableViewTests.framework */; };
+		A70A4012A4899DB6E407207B /* Pods_UITableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCD2F31295B075153914609 /* Pods_UITableView.framework */; };
 		FF4CC5012620DD06001478F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5002620DD06001478F3 /* AppDelegate.swift */; };
 		FF4CC5032620DD06001478F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5022620DD06001478F3 /* SceneDelegate.swift */; };
 		FF4CC5052620DD06001478F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5042620DD06001478F3 /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 		FF4CC50D2620DD07001478F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4CC50B2620DD07001478F3 /* LaunchScreen.storyboard */; };
 		FF4CC5182620DD07001478F3 /* UITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5172620DD07001478F3 /* UITableViewTests.swift */; };
 		FF4CC5232620DD07001478F3 /* UITableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC5222620DD07001478F3 /* UITableViewUITests.swift */; };
+		FF4CC53B2620DE48001478F3 /* FontModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC53A2620DE48001478F3 /* FontModel.swift */; };
+		FF4CC5402620DEF8001478F3 /* FontDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC53F2620DEF8001478F3 /* FontDataProvider.swift */; };
+		FF70CACB263C66BD0017F5ED /* SignInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70CACA263C66BD0017F5ED /* SignInTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15147021E26F765BFD8C6B80 /* Pods-UITableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView.release.xcconfig"; path = "Target Support Files/Pods-UITableView/Pods-UITableView.release.xcconfig"; sourceTree = "<group>"; };
+		2FCD2F31295B075153914609 /* Pods_UITableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5233D2A46DD1EB320EF53AD7 /* Pods_UITableView_UITableViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITableView_UITableViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA9F27F6659C4C17C20FB1B /* Pods-UITableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView.debug.xcconfig"; path = "Target Support Files/Pods-UITableView/Pods-UITableView.debug.xcconfig"; sourceTree = "<group>"; };
+		6D196F8C9245DDCE4F96A937 /* Pods-UITableView-UITableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView-UITableViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-UITableView-UITableViewUITests/Pods-UITableView-UITableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7096CFC5C510C7D75924C2A8 /* Pods-UITableView-UITableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableView-UITableViewUITests.release.xcconfig"; path = "Target Support Files/Pods-UITableView-UITableViewUITests/Pods-UITableView-UITableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78CF6201EEC85FC698A85579 /* Pods-UITableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableViewTests.debug.xcconfig"; path = "Target Support Files/Pods-UITableViewTests/Pods-UITableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAAB0E3AB47CD31ED964A6FB /* Pods_UITableViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITableViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB5AD146047AEDA8A324005 /* Pods-UITableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableViewTests.release.xcconfig"; path = "Target Support Files/Pods-UITableViewTests/Pods-UITableViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF4CC4FD2620DD05001478F3 /* UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4CC5002620DD06001478F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF4CC5022620DD06001478F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		FF4CC51E2620DD07001478F3 /* UITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4CC5222620DD07001478F3 /* UITableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewUITests.swift; sourceTree = "<group>"; };
 		FF4CC5242620DD07001478F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4CC53A2620DE48001478F3 /* FontModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModel.swift; sourceTree = "<group>"; };
+		FF4CC53F2620DEF8001478F3 /* FontDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDataProvider.swift; sourceTree = "<group>"; };
+		FF70CACA263C66BD0017F5ED /* SignInTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70A4012A4899DB6E407207B /* Pods_UITableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755D847FA5FC8F6F41240C43 /* Pods_UITableViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53853956E61319B2ABC859BE /* Pods_UITableView_UITableViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C19507530C7767CC6389BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD2F31295B075153914609 /* Pods_UITableView.framework */,
+				5233D2A46DD1EB320EF53AD7 /* Pods_UITableView_UITableViewUITests.framework */,
+				AAAB0E3AB47CD31ED964A6FB /* Pods_UITableViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F7DD25CA80D8726E3E49A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AA9F27F6659C4C17C20FB1B /* Pods-UITableView.debug.xcconfig */,
+				15147021E26F765BFD8C6B80 /* Pods-UITableView.release.xcconfig */,
+				6D196F8C9245DDCE4F96A937 /* Pods-UITableView-UITableViewUITests.debug.xcconfig */,
+				7096CFC5C510C7D75924C2A8 /* Pods-UITableView-UITableViewUITests.release.xcconfig */,
+				78CF6201EEC85FC698A85579 /* Pods-UITableViewTests.debug.xcconfig */,
+				FEB5AD146047AEDA8A324005 /* Pods-UITableViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FF4CC4F42620DD05001478F3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				FF4CC5162620DD07001478F3 /* UITableViewTests */,
 				FF4CC5212620DD07001478F3 /* UITableViewUITests */,
 				FF4CC4FE2620DD05001478F3 /* Products */,
+				A6F7DD25CA80D8726E3E49A9 /* Pods */,
+				18C19507530C7767CC6389BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +152,9 @@
 				FF4CC5092620DD07001478F3 /* Assets.xcassets */,
 				FF4CC50B2620DD07001478F3 /* LaunchScreen.storyboard */,
 				FF4CC50E2620DD07001478F3 /* Info.plist */,
+				FF4CC53A2620DE48001478F3 /* FontModel.swift */,
+				FF4CC53F2620DEF8001478F3 /* FontDataProvider.swift */,
+				FF70CACA263C66BD0017F5ED /* SignInTableViewCell.swift */,
 			);
 			path = UITableView;
 			sourceTree = "<group>";
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4CC5272620DD07001478F3 /* Build configuration list for PBXNativeTarget "UITableView" */;
 			buildPhases = (
+				8D63B06315167F94ADFCA3F9 /* [CP] Check Pods Manifest.lock */,
 				FF4CC4F92620DD05001478F3 /* Sources */,
 				FF4CC4FA2620DD05001478F3 /* Frameworks */,
 				FF4CC4FB2620DD05001478F3 /* Resources */,
+				5E8F2BD7BA5309AB2B33F4C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4CC52A2620DD07001478F3 /* Build configuration list for PBXNativeTarget "UITableViewTests" */;
 			buildPhases = (
+				251FA213C86A04B2B30F314E /* [CP] Check Pods Manifest.lock */,
 				FF4CC50F2620DD07001478F3 /* Sources */,
 				FF4CC5102620DD07001478F3 /* Frameworks */,
 				FF4CC5112620DD07001478F3 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4CC52D2620DD07001478F3 /* Build configuration list for PBXNativeTarget "UITableViewUITests" */;
 			buildPhases = (
+				5BD2244C31A804A7F57F6CA4 /* [CP] Check Pods Manifest.lock */,
 				FF4CC51A2620DD07001478F3 /* Sources */,
 				FF4CC51B2620DD07001478F3 /* Frameworks */,
 				FF4CC51C2620DD07001478F3 /* Resources */,
+				328F0958510FB53A5978200E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +307,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		251FA213C86A04B2B30F314E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UITableViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		328F0958510FB53A5978200E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UITableView-UITableViewUITests/Pods-UITableView-UITableViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UITableView-UITableViewUITests/Pods-UITableView-UITableViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UITableView-UITableViewUITests/Pods-UITableView-UITableViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BD2244C31A804A7F57F6CA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UITableView-UITableViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8F2BD7BA5309AB2B33F4C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UITableView/Pods-UITableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UITableView/Pods-UITableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UITableView/Pods-UITableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D63B06315167F94ADFCA3F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UITableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF4CC4F92620DD05001478F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF4CC5052620DD06001478F3 /* ViewController.swift in Sources */,
+				FF70CACB263C66BD0017F5ED /* SignInTableViewCell.swift in Sources */,
 				FF4CC5012620DD06001478F3 /* AppDelegate.swift in Sources */,
+				FF4CC53B2620DE48001478F3 /* FontModel.swift in Sources */,
+				FF4CC5402620DEF8001478F3 /* FontDataProvider.swift in Sources */,
 				FF4CC5032620DD06001478F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +593,7 @@
 		};
 		FF4CC5282620DD07001478F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA9F27F6659C4C17C20FB1B /* Pods-UITableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +613,7 @@
 		};
 		FF4CC5292620DD07001478F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15147021E26F765BFD8C6B80 /* Pods-UITableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +633,7 @@
 		};
 		FF4CC52B2620DD07001478F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CF6201EEC85FC698A85579 /* Pods-UITableViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +656,7 @@
 		};
 		FF4CC52C2620DD07001478F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB5AD146047AEDA8A324005 /* Pods-UITableViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		FF4CC52E2620DD07001478F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D196F8C9245DDCE4F96A937 /* Pods-UITableView-UITableViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +700,7 @@
 		};
 		FF4CC52F2620DD07001478F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7096CFC5C510C7D75924C2A8 /* Pods-UITableView-UITableViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
