@@ -21,6 +21,9 @@
 		FF4CC53B2620DE48001478F3 /* FontModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC53A2620DE48001478F3 /* FontModel.swift */; };
 		FF4CC5402620DEF8001478F3 /* FontDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4CC53F2620DEF8001478F3 /* FontDataProvider.swift */; };
 		FF70CACB263C66BD0017F5ED /* SignInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70CACA263C66BD0017F5ED /* SignInTableViewCell.swift */; };
+		FF70CAD0263C79520017F5ED /* GeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70CACF263C79520017F5ED /* GeneralTableViewCell.swift */; };
+		FF70CAD5263D6E7F0017F5ED /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70CAD4263D6E7E0017F5ED /* TableViewModel.swift */; };
+		FF70CAE7263DD6410017F5ED /* EmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70CAE6263DD6410017F5ED /* EmptyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		FF4CC53A2620DE48001478F3 /* FontModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModel.swift; sourceTree = "<group>"; };
 		FF4CC53F2620DEF8001478F3 /* FontDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDataProvider.swift; sourceTree = "<group>"; };
 		FF70CACA263C66BD0017F5ED /* SignInTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTableViewCell.swift; sourceTree = "<group>"; };
+		FF70CACF263C79520017F5ED /* GeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTableViewCell.swift; sourceTree = "<group>"; };
+		FF70CAD4263D6E7E0017F5ED /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		FF70CAE6263DD6410017F5ED /* EmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,9 @@
 				FF4CC53A2620DE48001478F3 /* FontModel.swift */,
 				FF4CC53F2620DEF8001478F3 /* FontDataProvider.swift */,
 				FF70CACA263C66BD0017F5ED /* SignInTableViewCell.swift */,
+				FF70CACF263C79520017F5ED /* GeneralTableViewCell.swift */,
+				FF70CAD4263D6E7E0017F5ED /* TableViewModel.swift */,
+				FF70CAE6263DD6410017F5ED /* EmptyTableViewCell.swift */,
 			);
 			path = UITableView;
 			sourceTree = "<group>";
@@ -417,10 +426,13 @@
 			files = (
 				FF4CC5052620DD06001478F3 /* ViewController.swift in Sources */,
 				FF70CACB263C66BD0017F5ED /* SignInTableViewCell.swift in Sources */,
+				FF70CAE7263DD6410017F5ED /* EmptyTableViewCell.swift in Sources */,
 				FF4CC5012620DD06001478F3 /* AppDelegate.swift in Sources */,
+				FF70CAD5263D6E7F0017F5ED /* TableViewModel.swift in Sources */,
 				FF4CC53B2620DE48001478F3 /* FontModel.swift in Sources */,
 				FF4CC5402620DEF8001478F3 /* FontDataProvider.swift in Sources */,
 				FF4CC5032620DD06001478F3 /* SceneDelegate.swift in Sources */,
+				FF70CAD0263C79520017F5ED /* GeneralTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

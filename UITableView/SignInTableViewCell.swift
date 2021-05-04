@@ -37,7 +37,7 @@ class SignInTableViewCell: UITableViewCell {
         
         contentView.addSubview(accountImage)
         accountImage.snp.makeConstraints{(make) in
-            make.left.equalToSuperview().offset(20)
+            make.left.equalToSuperview().offset(10)
             make.bottom.equalToSuperview().offset(-10)
             make.top.equalToSuperview().offset(10)
             make.height.width.equalTo(40)

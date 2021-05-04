@@ -5,7 +5,7 @@
 //  Created by Rustam Keneev on 4/10/21.
 //
 
-import Foundation
+import UIKit
 
 struct FontModel {
     let name: String
